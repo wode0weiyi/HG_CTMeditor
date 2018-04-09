@@ -12,6 +12,7 @@
 		A9586F49207AF6180055D963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9586F47207AF6180055D963 /* Main.storyboard */; };
 		A9586F4B207AF6180055D963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9586F4A207AF6180055D963 /* Assets.xcassets */; };
 		A9586F4E207AF6180055D963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9586F4C207AF6180055D963 /* LaunchScreen.storyboard */; };
+		A9586F57207AF6680055D963 /* CTMeditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9586F56207AF6680055D963 /* CTMeditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A9586F4A207AF6180055D963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9586F4D207AF6180055D963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9586F4F207AF6180055D963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9586F56207AF6680055D963 /* CTMeditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTMeditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A9586F42207AF6180055D963 /* CTMediator_demo */ = {
 			isa = PBXGroup;
 			children = (
+				A9586F55207AF6520055D963 /* CTMediator */,
 				A9586F43207AF6180055D963 /* AppDelegate.swift */,
 				A9586F45207AF6180055D963 /* ViewController.swift */,
 				A9586F47207AF6180055D963 /* Main.storyboard */,
@@ -63,6 +66,14 @@
 			);
 			path = CTMediator_demo;
 			sourceTree = "<group>";
+		};
+		A9586F55207AF6520055D963 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A9586F56207AF6680055D963 /* CTMeditor.swift */,
+			);
+			path = CTMediator;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -138,6 +149,7 @@
 			files = (
 				A9586F46207AF6180055D963 /* ViewController.swift in Sources */,
 				A9586F44207AF6180055D963 /* AppDelegate.swift in Sources */,
+				A9586F57207AF6680055D963 /* CTMeditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
